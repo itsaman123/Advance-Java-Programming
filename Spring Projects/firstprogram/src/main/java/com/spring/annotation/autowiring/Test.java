@@ -7,8 +7,6 @@ public class Test {
 	public static void main(String[] arg) {
 		ApplicationContext context=new ClassPathXmlApplicationContext("com/spring/annotation/autowiring/AutoWireConfig.xml");
 		Emp emp1=(Emp)context.getBean("objEmp",Emp.class);
-		System.out.println("\n\n"+emp1);
-		
+		System.out.println("\n\n"+emp1);	
 	}
-
 }
