@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="https://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ https://www.springframework.org/schema/context
+  https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- this is out bean -->
+	<bean name="objEmp" class="com.sprintcore.collections.Emp">
+		<property name="eName" value="Surya" />
+		<property name="ePhones">
+		<list>
+			<value>9999</value>
+			<value>8888</value>
+			<value>7777</value>
+		</list>
+	</property>
+		<property name="eAddresses">
+			<set>
+				<value>Delhi</value>
+				<value>Noida</value>
+				<value>Lucknow</value>
+			</set>
+		</property>
+		<property name="eCources">
+		<map>
+		<entry key="java" value="6month"></entry>
+		<entry key="python" value="4month"></entry>
+		<entry key =".netframework" value="5month"></entry>
+		</map>
+
+
+		</property>
+
+
+
+	</bean>
+
+
+
+
+
+</beans>
+ 
