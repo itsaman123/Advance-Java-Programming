@@ -10,10 +10,10 @@
   
   <bean name="address" class="com.spring.annotation.autowiring">
   <property name="street" value="alpha-1"/>
+  
+  
   <property name="city" value="Gr noid"/>
-   
   </bean>
   <bean class="com.spring.annotation.autowiring.Emp" name="objEmp"  autowire="byName"/>
-  ]
 </beans>
  
