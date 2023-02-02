@@ -5,5 +5,10 @@
 1. JDBC
 2. Servlet
 3. JSP
-4. Eclipse
-5. Apache Tomcat
+4. Spring
+5. Spring Boot
+6. JPA
+7. Eclipse
+8. Apache Tomcat
+9. SQL
+10.JDK-19
